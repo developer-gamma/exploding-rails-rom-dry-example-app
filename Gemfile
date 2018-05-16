@@ -9,6 +9,7 @@ gem 'pg'
 gem 'rom-rails'
 gem 'rom-sql'
 gem 'rom-mapper', path: "~/code/gems/rom"
+gem "dry-validation", "~> 0.11.1"
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
