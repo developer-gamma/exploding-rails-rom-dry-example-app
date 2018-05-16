@@ -10,6 +10,9 @@ gem 'rom-rails'
 gem 'rom-sql'
 gem 'rom-mapper', path: "~/code/gems/rom"
 gem "dry-validation", "~> 0.11.1"
+gem 'dry-transaction', '~> 0.11.1'
+gem "dry-container", "0.6.0"
+gem "dry-auto_inject", "0.4.6"
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
